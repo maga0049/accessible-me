@@ -26,10 +26,9 @@ img {
 
 .main-nav ul {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
+  text-align: center;
+  flex: 1;
+  
 }
 
 .main-nav ul li {
@@ -39,9 +38,10 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: #2546f0;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 1rem;
 }
 
 form input,
@@ -69,3 +69,4 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
